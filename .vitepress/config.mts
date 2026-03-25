@@ -1,33 +1,29 @@
-themeConfig: {
-  // 1. 顶部导航栏
-  nav: [
-    { text: '首页', link: '/' },
-    { text: '打卡记录', link: '/logs/2026-03/03-25' }
-  ],
+import { defineConfig } from 'vitepress'
 
-  // 2. 侧边栏（这是最 Organize 的地方！）
-  sidebar: {
-    '/logs/': [
+export default defineConfig({
+  title: "Chuanbao的学习空间",
+  description: "从 2026 年 3 月开始的航海日记",
+  themeConfig: {
+    // 1. 顶部导航栏
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '打卡记录', link: '/logs/today' }
+    ],
+
+    // 2. 侧边栏
+    sidebar: [
       {
-        text: '2026年3月',
-        collapsed: false, // 是否默认折叠
+        text: '学习日志',
         items: [
-          { text: '3月25日：初识 VitePress', link: '/logs/2026-03/03-25' },
-          { text: '3月26日：部署上线', link: '/logs/2026-03/03-26' }
-        ]
-      },
-      {
-        text: '技术专题',
-        collapsed: true,
-        items: [
-          { text: 'Git 常用指令总结', link: '/logs/projects/git-cheatsheet' }
+          { text: '今日打卡', link: '/logs/today' }
         ]
       }
-    ]
-  },
+    ],
 
-  socialLinks: [
-    { icon: 'github', link: 'https://github.com/superaseraser' },
-    { icon: 'linkedin', link: 'https://www.linkedin.com/in/chuanbao-zheng-05a081202/' }
-  ]
-}
+    // 3. 右上角社交图标
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/superaseraser' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/chuanbao-zheng-05a081202/' }
+    ]
+  }
+})
