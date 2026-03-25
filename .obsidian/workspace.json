@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/(零基础)如何8个小时内拥有自己的个人网站.md",
+                "file": "logs/learning/详细版-(零基础)如何8个小时内拥有自己的个人网站/详细版-(零基础)如何8个小时内拥有自己的个人网站.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(零基础)如何8个小时内拥有自己的个人网站"
+              "title": "详细版-(零基础)如何8个小时内拥有自己的个人网站"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logs/learning/从零开始：搭建你的 AI 感学术主页.md",
+                "file": "logs/learning/详细版-(零基础)如何8个小时内拥有自己的个人网站/精简版-(零基础)如何8个小时内拥有自己的个人网站.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "从零开始：搭建你的 AI 感学术主页"
+              "title": "精简版-(零基础)如何8个小时内拥有自己的个人网站"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "logs/learning/从零开始：搭建你的 AI 感学术主页.md",
+                "file": "logs/learning/详细版-(零基础)如何8个小时内拥有自己的个人网站/精简版-(零基础)如何8个小时内拥有自己的个人网站.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "从零开始：搭建你的 AI 感学术主页 的反向链接列表"
+              "title": "精简版-(零基础)如何8个小时内拥有自己的个人网站 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "logs/learning/从零开始：搭建你的 AI 感学术主页.md",
+                "file": "logs/learning/详细版-(零基础)如何8个小时内拥有自己的个人网站/精简版-(零基础)如何8个小时内拥有自己的个人网站.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "从零开始：搭建你的 AI 感学术主页 的出链列表"
+              "title": "精简版-(零基础)如何8个小时内拥有自己的个人网站 的出链列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "logs/learning/从零开始：搭建你的 AI 感学术主页.md",
+                "file": "logs/learning/详细版-(零基础)如何8个小时内拥有自己的个人网站/精简版-(零基础)如何8个小时内拥有自己的个人网站.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "从零开始：搭建你的 AI 感学术主页 的大纲"
+              "title": "精简版-(零基础)如何8个小时内拥有自己的个人网站 的大纲"
             }
           },
           {
@@ -211,13 +211,13 @@
   },
   "active": "0d066a2a2e9d1204",
   "lastOpenFiles": [
-    "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/(零基础)如何8个小时内拥有自己的个人网站.md",
-    "logs/learning/从零开始：搭建你的 AI 感学术主页.md",
-    "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/Pasted image 20260325175244.png",
-    "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/Pasted image 20260325174206.png",
+    "logs/learning/详细版-(零基础)如何8个小时内拥有自己的个人网站/详细版-(零基础)如何8个小时内拥有自己的个人网站.md",
+    "logs/learning/详细版-(零基础)如何8个小时内拥有自己的个人网站/精简版-(零基础)如何8个小时内拥有自己的个人网站.md",
+    "logs/learning/详细版-(零基础)如何8个小时内拥有自己的个人网站/Pasted image 20260325175244.png",
+    "logs/learning/详细版-(零基础)如何8个小时内拥有自己的个人网站/Pasted image 20260325174206.png",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/config.mjs.md",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/().md",
-    "logs/learning/(零基础)如何8个小时内拥有自己的个人网站",
+    "logs/learning/详细版-(零基础)如何8个小时内拥有自己的个人网站",
     "logs/2026/2026-03/03-25.md",
     "about-me.md",
     "node_modules/vitepress-sidebar/README.md",
