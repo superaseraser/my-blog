@@ -2,11 +2,18 @@ import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
 
 export default defineConfig({
-  // 基础配置
+  // 1. 基础配置
   title: "Chuanbao",
   description: "蛋白质设计与实验笔记",
   
-  // 🌟 允许黑白切换（配合我们之前写好的丝滑 CSS）
+  // 🌟 自定义域名必备：设置站点地图，让 Google 更好搜到你
+  sitemap: {
+    hostname: 'https://chuanbaozheng.com'
+  },
+
+  // 🌟 确保 base 为根目录，这样自定义域名的图片/样式才不会错位
+  base: '/',
+
   appearance: true, 
   lastUpdated: true,
 
@@ -25,6 +32,7 @@ export default defineConfig({
         scanStartPath: 'logs',
         resolvePath: '/logs/',
         useTitleFromFileHeading: true,
+        useFolderTitleFromIndexFile: true, // 如果文件夹里有 index.md，用它的标题
         collapsed: true,
         hyphenToSpace: true,
         sortMenusByName: true
@@ -36,7 +44,7 @@ export default defineConfig({
       label: '本页目录',
       level: [2, 3] 
     },
-    aside: true, // 侧边栏占位
+    aside: true,
 
     // 4. 社交链接
     socialLinks: [
