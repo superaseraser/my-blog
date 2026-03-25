@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "npx vitepress preview"
+    "preview": "vitepress preview"
   },
-  "devDependencies": {
+  "dependencies": {
     "vitepress": "latest",
     "vue": "latest"
   }
