@@ -1,0 +1,157 @@
+# 从零开始：搭建你的 AI 感学术主页 (VitePress + Vercel + Cloudflare)
+
+> **前言**：如果你也想拥有一个像 `chuanbaozheng.com` 这样支持暗黑模式、自动目录、且全球访问极快的个人网站，请跟着这份指南走。**不需要你懂编程，只需要你会复制粘贴。**
+
+---
+
+## 第一阶段：准备工作 (工具安装)
+
+在开始之前，你的电脑需要两个“地基”：
+
+1. **Node.js**：网站的运行环境。
+    
+    - 去 [nodejs.org](https://nodejs.org/) 下载 **LTS（长期支持版）**，一路点击“下一步”安装。
+        
+2. **VS Code**：最强大的编辑器。
+    
+    - 去 [code.visualstudio.com](https://code.visualstudio.com/) 下载并安装。
+        
+
+---
+
+## 第二阶段：初始化你的网站仓库
+
+1. **新建文件夹**：在电脑里新建一个文件夹，比如 `my-lab-site`。
+    
+2. **打开终端**：在 VS Code 中打开这个文件夹，点击顶部菜单的 `终端 (Terminal)` -> `新建终端`。
+    
+3. **运行初始化命令**： 在黑色的窗口里输入以下命令并回车：
+    
+    Bash
+    
+    ```
+    npm add -D vitepress
+    npx vitepress init
+    ```
+    
+    - **提示**：它会问你几个问题，一路按**回车**即可。
+        
+4. **安装插件**（为了自动生成侧边栏）：
+    
+    Bash
+    
+    ```
+    npm add -D vitepress-sidebar
+    ```
+    
+
+---
+
+## 第三阶段：核心配置文件 (直接复制)
+
+这是网站的“大脑”。打开 `.vitepress/config.mts`，把里面的内容全部删掉，替换成下面这段（**记得把名字和链接改成你自己的**）：
+
+TypeScript
+
+```
+import { defineConfig } from 'vitepress'
+import { generateSidebar } from 'vitepress-sidebar'
+
+export default defineConfig({
+  title: "你的名字", // 浏览器标签页标题
+  description: "蛋白质设计笔记",
+  appearance: true, // 开启黑夜模式
+  base: '/', 
+
+  themeConfig: {
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '关于我', link: '/about-me' },
+      { text: '笔记', link: '/logs/' }
+    ],
+    // 自动生成左侧目录
+    sidebar: generateSidebar([{
+      documentRootPath: '/',
+      scanStartPath: 'logs',
+      resolvePath: '/logs/',
+      useTitleFromFileHeading: true,
+      collapsed: true
+    }]),
+    socialLinks: [
+      { icon: 'github', link: '你的GitHub链接' }
+    ],
+    footer: {
+      message: '你的邮箱',
+      copyright: `Copyright © ${new Date().getFullYear()}`
+    }
+  }
+})
+```
+
+---
+
+## 第四阶段：视觉美化 (CSS 魔法)
+
+为了让黑白切换像电影一样丝滑，打开 `.vitepress/theme/custom.css`（如果没有就新建一个），贴入以下代码：
+
+CSS
+
+```
+:root {
+  /* 设置品牌色 */
+  --vp-c-brand: #3451b2;
+  /* 🌟 全局丝滑过渡 */
+  transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* 修复文字切换时的闪烁 */
+*, *::before, *::after {
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease !important;
+}
+
+/* 导航栏左对齐优化 */
+.VPNavBarMenu {
+  margin-right: auto !important;
+  margin-left: 24px !important;
+}
+```
+
+---
+
+## 第五阶段：发布上线 (Vercel)
+
+1. **上传 GitHub**：把你的代码推送到 GitHub 仓库。
+    
+2. **关联 Vercel**：登录 [Vercel](https://vercel.com/)，点击 `Add New` -> `Project`，导入你的仓库。
+    
+3. **核心避坑（Build Command）**： 在 Vercel 的构建设置里，如果报错 `Permission Denied`，请将 **Install Command** 设置为： `npm install` 将 **Build Command** 设置为： `node node_modules/vitepress/bin/vitepress.js build`
+    
+
+---
+
+## 第六阶段：拥有自己的域名 (.com)
+
+1. **购买**：在 Cloudflare 或 Namecheap 购买 `yourname.com`。
+    
+2. **DNS 设置**（在域名商后台）：
+    
+    - 添加 **A 记录**：名称 `@`，内容 `76.76.21.21`。
+        
+    - 添加 **CNAME 记录**：名称 `www`，内容 `cname.vercel-dns.com`。
+        
+3. **Cloudflare 特有坑**：
+    
+    - 必须去 **SSL/TLS** 菜单，把加密模式改为 **Full**。否则网站会打不开！
+        
+
+---
+
+## 📖 如何写笔记？
+
+只要在 `logs` 文件夹下新建 `.md` 文件（比如 `protein-day1.md`），写完后 `git push`，你的域名网站就会在 30 秒内自动更新。
+
+---
+
+### 💡 写给读者的话
+
+“建立个人网站不是为了炫技，而是为了让你的知识有一个可以沉淀、可以被搜寻的‘家’。希望这份教程能帮你开启数字科研的第一步。”
