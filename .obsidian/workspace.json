@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logs/learning/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
+                "file": "logs/经验分享/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "详细版-零基础-如何8个小时内拥有自己的个人网站"
+              "title": "精简版-零基础-如何8个小时内拥有自己的个人网站"
             }
           },
           {
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "logs/learning/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
+                "file": "logs/经验分享/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "详细版-零基础-如何8个小时内拥有自己的个人网站 的反向链接列表"
+              "title": "精简版-零基础-如何8个小时内拥有自己的个人网站 的反向链接列表"
             }
           },
           {
@@ -125,12 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "logs/learning/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
+                "file": "logs/经验分享/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "详细版-零基础-如何8个小时内拥有自己的个人网站 的出链列表"
+              "title": "精简版-零基础-如何8个小时内拥有自己的个人网站 的出链列表"
             }
           },
           {
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "logs/learning/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
+                "file": "logs/经验分享/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "详细版-零基础-如何8个小时内拥有自己的个人网站 的大纲"
+              "title": "精简版-零基础-如何8个小时内拥有自己的个人网站 的大纲"
             }
           },
           {
@@ -208,20 +208,21 @@
   },
   "active": "25b1ac2157790d76",
   "lastOpenFiles": [
+    "logs/经验分享/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
+    "logs/经验分享",
     "public/截图-1.png",
     "public/截图-2.png",
     "public/index.md",
     "public/test.png",
     "public/test-cat.png",
-    "logs/learning/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
     "public/index.ts",
     "public/custom.css",
     "public/config.mts",
     "public/package.json",
-    "logs/learning/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
+    "logs/经验分享/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/config.mjs.md",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/().md",
-    "logs/learning/8个小时内拥有自己的个人网站",
+    "logs/经验分享/8个小时内拥有自己的个人网站",
     "logs/2026/2026-03/03-25.md",
     "about-me.md",
     "node_modules/vitepress-sidebar/README.md",
@@ -232,7 +233,6 @@
     "node_modules/path-key/index.js",
     "node_modules/path-key/index.d.ts",
     "node_modules/minipass/LICENSE.md",
-    "node_modules/minimatch/package.json",
     "node_modules/@isaacs/cliui/README.md",
     "node_modules/@isaacs/cliui/LICENSE.md",
     "logs/2026/2026-03/03-26.md",
