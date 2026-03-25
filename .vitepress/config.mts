@@ -1,58 +1,45 @@
 import { defineConfig } from 'vitepress'
+import { generateSidebar } from 'vitepress-sidebar'
 
 export default defineConfig({
-  title: "Chuanbao的学习空间",
-  description: "始于2026 年 3 月25日",
+  // ... 其他配置
+  appearance: 'dark', // 🌟 必须是 'dark'，这样网站一打开就是黑的，且不给用户切换的机会
+  
   themeConfig: {
-    // 1. 顶部导航栏
+    // 确保 outline 开启，这样“本页目录”才会显示
+    outline: {
+      label: '本页目录',
+      level: [2, 3] 
+    },
+    
+    // 强制侧边栏一直存在（即使没目录也占位，显得专业）
+    aside: true,
     nav: [
       { text: '首页', link: '/' },
+      { text: '关于我', link: '/about-me' },
       { text: '打卡记录', link: '/logs/2026/2026-03/03-25' }
     ],
 
-    // 2. 侧边栏 (所有专区都在这一个数组 [] 里面)
-    sidebar: [
+    sidebar: generateSidebar([
       {
-        text: '📅 2026年3月',
-        collapsed: false,
-        items: [
-          { text: '3月25日：初探 VitePress', link: '/logs/2026/2026-03/03-25' },
-          { text: '3月26日：部署与优化', link: '/logs/2026/2026-03/03-26' }
-        ]
-      },
-     
-      {
-        text: '🎓 Learning 专区',
-        collapsed: false,
-        items: [
-          // 这里的 link 必须和你文件夹路径匹配
-          { text: '📚 读的书', link: '/logs/learning/books/books' },
-          { text: '🔬 实验技能分享', link: '/logs/learning/lab-skills/lab-skills' },
-          { text: '🧬 蛋白质设计', link: '/logs/learning/protein-design/protein-design' }
-        ]
-      },
-      {
-        text: '☕ 碎碎念/杂项',
+        documentRootPath: '/',
+        scanStartPath: 'logs',
+        resolvePath: '/logs/',
+        useTitleFromFileHeading: true,
         collapsed: true,
-        items: [
-          { text: '🌈 随性杂谈', link: '/logs/misc/index' },
-          { text: '💭 每日思考', link: '/logs/misc/daily-thoughts' }
-        ]
-      },
- {
-        text: '📁 技术专题',
-        collapsed: true,
-        items: [
-          { text: 'Git 常用指令', link: '/logs/git-tips' }
-        ]
-      },
+        hyphenToSpace: true,
+        sortMenusByName: true
+      }
+    ]),
 
-    ],
-
-    // 3. 社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/superaseraser' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/chuanbao-zheng-05a081202/' }
-    ]
+    ],
+
+    footer: {
+      message: '🧪 ',
+      copyright: `Copyright © 2026-${new Date().getFullYear()} Chuanbao`
+    }
   }
 })

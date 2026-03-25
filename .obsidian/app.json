@@ -1,1 +1,7 @@
-{}
+{
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "newLinkFormat": "absolute",
+  "trashOption": "local",
+  "useMarkdownLinks": true
+}

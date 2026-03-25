@@ -1,22 +1,34 @@
 ---
 layout: home
 hero:
-  name: Chuanbao的学习空间
-  text: 始于2026 年 3 月25日
+  name: "Chuanbao's Space"
+  text: "Bio-Design & Digital Life"
   tagline: 记录每一个成功搭建环境的小瞬间
   image:
     src: /test-cat.png
     alt: 我的测试猫
   actions:
     - theme: brand
-      text: 查看学习记录
+      text: About me
+      link: /about-me
+
+    - theme: brand
+      text: 开始阅读
       link: /logs/today
+
+
 features:
-  - title: 🛠️ 环境搭建
-    details: 成功打通 VitePress + GitHub + Vercel 全流程。
-  - title: 📝 持续打卡
-    details: 每天进步一点点，回国后也要继续坚持。
-  - title: 🐱 猫咪守护
-    details: 只要有猫在，Bug 都会消失。
-test:
+  - icon: 🧬
+    title: 蛋白质设计
+    details: 记录 Rosetta, AlphaFold 和结构生物学的点点滴滴。
+    # 🔗 这里加上了链接
+    link: /logs/learning/protein-design/protein-design
+  - icon: 🔬
+    title: 实验技能
+    details: 湿实验操作规范与避坑指南。
+    link: /logs/learning/lab-skills/lab-skills
+  - icon: 📚
+    title: 读书笔记
+    details: 把看过的书沉淀为成长的养料。
+    link: /logs/learning/books/books
 ---

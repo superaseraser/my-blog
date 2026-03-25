@@ -1,0 +1,67 @@
+/* =========================================
+   Chuanbao's Elegant Transition Theme
+   ========================================= */
+
+/* 1. 核心：给核心 CSS 变量添加柔和过渡 */
+:root {
+  /* 定义品牌色（在两种模式下都好看的深蓝色） */
+  --vp-c-brand: #3451b2;
+  --vp-c-brand-next: #5672cd;
+
+  /* 🌟 这是核心：让背景色、文字色、边框色在 0.4s 内柔和变化 */
+  /* 使用 ease-in-out 让动画开始和结束时变慢，符合物理规律 */
+  transition: 
+    background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* 2. 针对深色模式的细节微调 (消除“死黑”，更深邃柔和) */
+.dark {
+  --vp-c-bg: #1b1b1f !important;      /* 柔和的深蓝色调 */
+  --vp-c-bg-alt: #161618 !important;
+  --vp-c-bg-elv: #202127 !important;
+  --vp-c-text-1: rgba(255, 255, 255, 0.87) !important; /* 降低文字亮度，不刺眼 */
+}
+
+/* 3. 解决“文字闪动”：将过渡效果挂载到所有元素上 */
+*, *::before, *::after {
+  /* 这里的 transition 属性必须和 :root 保持一致，确保整体感 */
+  transition: 
+    background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+    color 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+    border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+    box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* 4. 优化首页 Hero 名字，跟随品牌色优雅变换 */
+.VPHero .name {
+  color: var(--vp-c-brand) !important;
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* 5. 侧边栏和目录栏：在反转时保持轻盈感，防止瞬间闪变 */
+.VPLocalNav, .VPDocAside, .VPNav, .VPSidebar {
+  background-color: transparent !important; /* 初始透明 */
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* 6. 特殊优化：代码块在切换时要极其柔和，防止大块色斑闪烁 */
+.vp-doc div[class*="language-"] {
+  transition: background-color 0.6s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* 侧边栏活动项：加一个淡入的青色边框 */
+.VPSidebarItem.level-0.is-active > .item > .link > .text {
+  color: var(--vp-c-brand) !important;
+  transition: color 0.4s ease;
+}
+
+.VPSidebarItem.is-active > .item {
+  border-left: 2px solid var(--vp-c-brand);
+  padding-left: 14px !important;
+  margin-left: -16px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}

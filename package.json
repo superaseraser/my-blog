@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "vitepress": "latest",
+    "vitepress-sidebar": "^1.33.1",
     "vue": "latest"
   }
 }
