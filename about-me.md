@@ -8,10 +8,10 @@
 
 ### 🧬 专业领域 (Expertise)
 
-| 领域 | 核心工具/技能 | 状态 |
-| :--- | :--- | :--- |
-| **蛋白质设计** | Rosetta, AlphaFold3, PyMOL | 🚀 深入学习中 |
-| **生物湿实验** | 蛋白表达、纯化、LC-MS | ✅ 熟练掌握 |
+| 领域        | 核心工具/技能                         | 状态       |
+| :-------- | :------------------------------ | :------- |
+| **蛋白质设计** | Rosetta, AlphaFold3, PyMOL      | 🚀 学习中   |
+| **生物湿实验** | 分子克隆、蛋白表达、纯化、表征                 | ✅ 熟练掌握   |
 | **数字化办公** | Obsidian, Git, VitePress, Linux | 🛠️ 持续折腾 |
 
 ---
@@ -35,7 +35,7 @@
 
 # 👋 Chuanbao 的赛博空间
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=42D392&width=500&lines=探索蛋白质折叠的奥秘...;记录湿实验避坑指南...;环境搭建成功，正在同步笔记...;你好，世界！👋)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=BB52FB&width=500&lines=网络连接中...;探索蛋白质折叠的奥秘...;记录湿实验避坑指南...;环境搭建成功，正在同步笔记...;你好，世界！👋)
 
 ---
 
