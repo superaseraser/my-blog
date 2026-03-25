@@ -25,14 +25,12 @@
             "id": "0d066a2a2e9d1204",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
-                "mode": "source",
-                "source": false
+                "file": "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/截图-2.png"
               },
-              "icon": "lucide-file",
-              "title": "详细版-零基础-如何8个小时内拥有自己的个人网站"
+              "icon": "lucide-image",
+              "title": "截图-2"
             }
           }
         ],
@@ -109,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
+                "file": "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/截图-2.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "详细版-零基础-如何8个小时内拥有自己的个人网站 的反向链接列表"
+              "title": "截图-2 的反向链接列表"
             }
           },
           {
@@ -128,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
+                "file": "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/截图-2.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "详细版-零基础-如何8个小时内拥有自己的个人网站 的出链列表"
+              "title": "截图-2 的出链列表"
             }
           },
           {
@@ -171,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
+                "file": "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/截图-2.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "详细版-零基础-如何8个小时内拥有自己的个人网站 的大纲"
+              "title": "截图-2 的大纲"
             }
           },
           {
@@ -209,12 +207,12 @@
       "githobs:Manage a github issue": false
     }
   },
-  "active": "0d066a2a2e9d1204",
+  "active": "3fbaa06864a6c6ca",
   "lastOpenFiles": [
-    "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
+    "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/截图-1.png",
     "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
-    "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/Pasted image 20260325175244.png",
-    "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/Pasted image 20260325174206.png",
+    "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
+    "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站/截图-2.png",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/config.mjs.md",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/().md",
     "logs/learning/详细版-零基础-如何8个小时内拥有自己的个人网站",
@@ -248,7 +246,6 @@
     "node_modules/glob/LICENSE.md",
     "node_modules/lru-cache/README.md",
     "node_modules/lru-cache/LICENSE.md",
-    "node_modules/foreground-child/README.md",
     "public/test.png",
     "public/test-cat.png"
   ]
