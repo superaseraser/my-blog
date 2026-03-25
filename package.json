@@ -2,11 +2,11 @@
   "name": "my-blog",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vitepress dev",
-    "build": "npx vitepress build",
-    "preview": "vitepress preview"
-  },
+"scripts": {
+  "dev": "vitepress dev",
+  "build": "node node_modules/vitepress/bin/vitepress.js build",
+  "preview": "vitepress preview"
+}
   "dependencies": {
     "vitepress": "latest",
     "vitepress-sidebar": "^1.33.1",
