@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "npx vitepress preview"
+    "build": "npx vitepress build",
+    "preview": "vitepress preview"
   },
   "dependencies": {
     "vitepress": "latest",
