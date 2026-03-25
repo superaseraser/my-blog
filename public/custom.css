@@ -1,0 +1,52 @@
+/* =========================================
+   布局修正：导航链接靠左，社交/搜索靠右
+   ========================================= */
+
+/* 1. 调整导航栏容器，允许内容向左对齐 */
+.VPNavBar .content-body {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+/* 2. 核心：将菜单推向左侧，并把剩余空间留给右侧 */
+.VPNavBarMenu {
+  flex-grow: 0 !important;
+  margin-right: auto !important; /* 🌟 关键：推开右侧所有内容 */
+  margin-left: 32px !important;  /* 与左侧 Logo/标题的间距 */
+}
+
+/* 3. 确保搜索框、外观切换和社交链接在最右边 */
+.VPNavBarSearch, 
+.VPNavBarAppearance, 
+.VPNavBarSocialLinks {
+  flex-grow: 0 !important;
+  margin-left: 12px !important;
+}
+
+/* 4. 优化移动端：在手机上保持汉堡菜单在右边 */
+@media (max-width: 959px) {
+  .VPNavBar .content-body {
+    justify-content: space-between !important;
+  }
+}
+
+/* =========================================
+   之前你提供的丝滑过渡代码（保持不变）
+   ========================================= */
+:root {
+  --vp-c-brand: #3451b2;
+  --vp-c-brand-next: #5672cd;
+  transition: 
+    background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.dark {
+  --vp-c-bg: #1b1b1f !important;
+  --vp-c-bg-alt: #161618 !important;
+  --vp-c-bg-elv: #202127 !important;
+  --vp-c-text-1: rgba(255, 255, 255, 0.87) !important;
+}
+
+/* ... 后面是你原本的 *, .VPHero, .VPSidebar 等代码 ... */

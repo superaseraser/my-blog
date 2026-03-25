@@ -25,18 +25,15 @@
             "id": "0d066a2a2e9d1204",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "logs/learning/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
-                "mode": "source",
-                "source": false
+                "file": "public/截图-1.png"
               },
-              "icon": "lucide-file",
-              "title": "详细版-零基础-如何8个小时内拥有自己的个人网站"
+              "icon": "lucide-image",
+              "title": "截图-1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,13 +206,19 @@
       "githobs:Manage a github issue": false
     }
   },
-  "active": "0d066a2a2e9d1204",
+  "active": "25b1ac2157790d76",
   "lastOpenFiles": [
-    "logs/learning/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
-    "logs/learning/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
     "public/截图-1.png",
     "public/截图-2.png",
+    "public/index.md",
     "public/test.png",
+    "public/test-cat.png",
+    "logs/learning/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
+    "public/index.ts",
+    "public/custom.css",
+    "public/config.mts",
+    "public/package.json",
+    "logs/learning/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/config.mjs.md",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/().md",
     "logs/learning/8个小时内拥有自己的个人网站",
@@ -230,10 +233,6 @@
     "node_modules/path-key/index.d.ts",
     "node_modules/minipass/LICENSE.md",
     "node_modules/minimatch/package.json",
-    "node_modules/jackspeak/package.json",
-    "node_modules/cross-spawn/package.json",
-    "node_modules/balanced-match/package.json",
-    "node_modules/@isaacs/cliui/dist/esm/wrap-ansi/index.d.ts",
     "node_modules/@isaacs/cliui/README.md",
     "node_modules/@isaacs/cliui/LICENSE.md",
     "logs/2026/2026-03/03-26.md",
@@ -247,8 +246,6 @@
     "node_modules/minimatch/LICENSE.md",
     "node_modules/glob/README.md",
     "node_modules/glob/LICENSE.md",
-    "node_modules/lru-cache/README.md",
-    "node_modules/lru-cache/LICENSE.md",
-    "public/test-cat.png"
+    "node_modules/lru-cache/README.md"
   ]
 }
