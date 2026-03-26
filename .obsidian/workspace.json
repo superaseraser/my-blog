@@ -208,6 +208,7 @@
   },
   "active": "25b1ac2157790d76",
   "lastOpenFiles": [
+    "update一键更新.bat",
     "一键更新.bat",
     "新建 文本文档.txt",
     "markdown-examples.md",
@@ -235,7 +236,6 @@
     "node_modules/path-scurry/LICENSE.md",
     "node_modules/path-key/readme.md",
     "node_modules/path-key/package.json",
-    "node_modules/path-key/index.js",
     "node_modules/minipass/LICENSE.md",
     "node_modules/@isaacs/cliui/README.md",
     "node_modules/@isaacs/cliui/LICENSE.md",
