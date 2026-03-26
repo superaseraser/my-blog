@@ -1,4 +1,6 @@
-# 👋 你好，我是 Chuanbao (郑传宝)
+# 👋 你好，我是 Chuanbao 
+
+这是我的： [我的谷歌学术链接](https://scholar.google.com/citations?user=LJhNX0IAAAAJ&hl=en&oi=ao)
 
 ::: info 🎯 核心目标
 **“在干实验与湿实验的边缘寻找平衡，记录每一个从 0 到 1 的瞬间。”**

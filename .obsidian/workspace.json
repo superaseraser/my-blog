@@ -4,33 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "751084063d964791",
+        "id": "1a619937b64dd507",
         "type": "tabs",
         "children": [
           {
-            "id": "25b1ac2157790d76",
+            "id": "b5a2a5c628595985",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "logs/2026/2026-03/03-26.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "03-26"
-            }
-          },
-          {
-            "id": "0d066a2a2e9d1204",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/截图-1.png"
-              },
-              "icon": "lucide-image",
-              "title": "截图-1"
+              "title": "新标签页"
             }
           }
         ]
@@ -206,8 +190,11 @@
       "githobs:Manage a github issue": false
     }
   },
-  "active": "25b1ac2157790d76",
+  "active": "b5a2a5c628595985",
   "lastOpenFiles": [
+    "public/截图-1.png",
+    "about-me.md",
+    "logs/2026/2026-03/03-26.md",
     "index.md",
     "update一键更新.bat",
     "一键更新.bat",
@@ -217,7 +204,6 @@
     "logs/经验分享/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
     "logs/经验分享/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
     "logs/经验分享",
-    "public/截图-1.png",
     "public/截图-2.png",
     "public/index.md",
     "public/test.png",
@@ -230,7 +216,6 @@
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/().md",
     "logs/经验分享/8个小时内拥有自己的个人网站",
     "logs/2026/2026-03/03-25.md",
-    "about-me.md",
     "node_modules/vitepress-sidebar/README.md",
     "node_modules/signal-exit/LICENSE.txt",
     "node_modules/path-scurry/LICENSE.md",
@@ -238,7 +223,6 @@
     "node_modules/minipass/LICENSE.md",
     "node_modules/@isaacs/cliui/README.md",
     "node_modules/@isaacs/cliui/LICENSE.md",
-    "logs/2026/2026-03/03-26.md",
     "logs/learning/protein-design/software.md",
     "logs/learning/protein-design/folding-test.md",
     "logs/learning/protein-design/protein-design.md",

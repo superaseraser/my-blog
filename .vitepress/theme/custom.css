@@ -30,43 +30,25 @@
   }
 }
 
-/* =========================================
-   2. 首页 Hero 部分：字体精细化缩小
-   ========================================= */
+/* --- 首页 Hero 部分：强制缩小字体 --- */
 
-:root {
-  /* 主标题 (Chuanbao's Space) */
-  --vp-home-hero-name-font-size: 40px;     
-  --vp-home-hero-name-line-height: 48px;  
-
-  /* 副标题 (Recording and extending...) */
-  --vp-home-hero-title-font-size: 28px;    
-  --vp-home-hero-title-line-height: 36px;  
-
-  /* 品牌色与丝滑过渡 */
-  --vp-c-brand: #3451b2;
-  --vp-c-brand-next: #5672cd;
-  transition: 
-    background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+/* 调整主标题 (Chuanbao's Space) */
+.VPHero .name {
+  font-size: 38px !important;     /* 稍微再小一点点，看是否生效 */
+  line-height: 44px !important;
 }
 
-/* 描述文字 (记录，分享...) */
+/* 调整副标题 (Recording and extending...) */
+.VPHero .text {
+  font-size: 26px !important;    
+  line-height: 32px !important;
+}
+
+/* 调整底部描述文字 */
 .VPHero .tagline {
   font-size: 16px !important;
-  color: var(--vp-c-text-2);
-  margin-top: 12px;
+  color: var(--vp-c-text-2) !important;
 }
-
-/* 针对手机端的小屏幕自适应 */
-@media (max-width: 640px) {
-  :root {
-    --vp-home-hero-name-font-size: 28px;
-    --vp-home-hero-title-font-size: 20px;
-  }
-}
-
 /* =========================================
    3. 暗黑模式与全局细节调整
    ========================================= */
