@@ -1,21 +1,21 @@
 /* =========================================
-   布局修正：导航链接靠左，社交/搜索靠右
+   1. 布局修正：导航链接靠左，社交/搜索靠右
    ========================================= */
 
-/* 1. 调整导航栏容器，允许内容向左对齐 */
+/* 调整导航栏容器，允许内容向左对齐 */
 .VPNavBar .content-body {
   display: flex !important;
   justify-content: flex-start !important;
 }
 
-/* 2. 核心：将菜单推向左侧，并把剩余空间留给右侧 */
+/* 核心：将菜单推向左侧，并把剩余空间留给右侧 */
 .VPNavBarMenu {
   flex-grow: 0 !important;
   margin-right: auto !important; /* 🌟 关键：推开右侧所有内容 */
   margin-left: 32px !important;  /* 与左侧 Logo/标题的间距 */
 }
 
-/* 3. 确保搜索框、外观切换和社交链接在最右边 */
+/* 确保搜索框、外观切换和社交链接在最右边 */
 .VPNavBarSearch, 
 .VPNavBarAppearance, 
 .VPNavBarSocialLinks {
@@ -23,7 +23,7 @@
   margin-left: 12px !important;
 }
 
-/* 4. 优化移动端：在手机上保持汉堡菜单在右边 */
+/* 优化移动端：在手机上保持汉堡菜单在右边 */
 @media (max-width: 959px) {
   .VPNavBar .content-body {
     justify-content: space-between !important;
@@ -31,9 +31,19 @@
 }
 
 /* =========================================
-   之前你提供的丝滑过渡代码（保持不变）
+   2. 首页 Hero 部分：字体精细化缩小
    ========================================= */
+
 :root {
+  /* 主标题 (Chuanbao's Space) */
+  --vp-home-hero-name-font-size: 40px;     
+  --vp-home-hero-name-line-height: 48px;  
+
+  /* 副标题 (Recording and extending...) */
+  --vp-home-hero-title-font-size: 28px;    
+  --vp-home-hero-title-line-height: 36px;  
+
+  /* 品牌色与丝滑过渡 */
   --vp-c-brand: #3451b2;
   --vp-c-brand-next: #5672cd;
   transition: 
@@ -42,6 +52,25 @@
     border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
+/* 描述文字 (记录，分享...) */
+.VPHero .tagline {
+  font-size: 16px !important;
+  color: var(--vp-c-text-2);
+  margin-top: 12px;
+}
+
+/* 针对手机端的小屏幕自适应 */
+@media (max-width: 640px) {
+  :root {
+    --vp-home-hero-name-font-size: 28px;
+    --vp-home-hero-title-font-size: 20px;
+  }
+}
+
+/* =========================================
+   3. 暗黑模式与全局细节调整
+   ========================================= */
+
 .dark {
   --vp-c-bg: #1b1b1f !important;
   --vp-c-bg-alt: #161618 !important;
@@ -49,4 +78,7 @@
   --vp-c-text-1: rgba(255, 255, 255, 0.87) !important;
 }
 
-/* ... 后面是你原本的 *, .VPHero, .VPSidebar 等代码 ... */
+/* 全局过渡动画 */
+*, *::before, *::after {
+  transition: background-color 0.4s ease, color 0.4s ease !important;
+}
