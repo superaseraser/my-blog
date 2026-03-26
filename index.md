@@ -2,8 +2,8 @@
 layout: home
 hero:
   name: "Chuanbao's Space"
-  text: "Bio-Design & Digital Life"
-  tagline: 记录每一个成功搭建环境的小瞬间
+  text: "Recording and extending knowledge is where it all begins"
+  tagline: 记录，分享，希望能够帮到那些在黑暗中摸索的人
   image:
     src: /test-cat.png
     alt: 我的测试猫

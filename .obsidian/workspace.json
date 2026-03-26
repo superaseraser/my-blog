@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logs/经验分享/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "精简版-零基础-如何8个小时内拥有自己的个人网站"
+              "title": "index"
             }
           },
           {
@@ -208,6 +208,10 @@
   },
   "active": "25b1ac2157790d76",
   "lastOpenFiles": [
+    "markdown-examples.md",
+    "logs/2026/index.md",
+    "index.md",
+    "logs/经验分享/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
     "logs/经验分享/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
     "logs/经验分享",
     "public/截图-1.png",
@@ -219,7 +223,6 @@
     "public/custom.css",
     "public/config.mts",
     "public/package.json",
-    "logs/经验分享/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/config.mjs.md",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/().md",
     "logs/经验分享/8个小时内拥有自己的个人网站",
@@ -244,8 +247,6 @@
     "node_modules/qsu/README.md",
     "node_modules/minimatch/README.md",
     "node_modules/minimatch/LICENSE.md",
-    "node_modules/glob/README.md",
-    "node_modules/glob/LICENSE.md",
-    "node_modules/lru-cache/README.md"
+    "node_modules/glob/README.md"
   ]
 }
