@@ -1,22 +1,25 @@
 @echo off
+:: 设置编码为简中，防止乱码
+chcp 936 >nul
 title 正在更新我的学术主页...
+
 echo ---------------------------------------
-echo 🚀 开始同步代码到 GitHub...
+echo 开始同步代码到 GitHub...
 echo ---------------------------------------
 
-:: 1. 把所有改动都存起来
+:: 1. 暂存所有更改
 git add .
 
-:: 2. 提交改动，备注会自动带上日期
+:: 2. 自动提交
 set msg=Update at %date% %time%
 git commit -m "%msg%"
 
-:: 3. 推送到云端
-echo 📤 正在上传，请稍候...
-git push origin main
+:: 3. 推送到云端 (注意这里改成了 master)
+echo 正在上传，请稍候...
+git push origin master
 
 echo ---------------------------------------
-echo ✅ 发布成功！Vercel 正在后台为你更新。
-echo 💡 预览地址: https://chuanbaozheng.com
+echo 恭喜！代码已成功推送到 GitHub。
+echo Vercel 正在后台为你更新。
 echo ---------------------------------------
 pause
