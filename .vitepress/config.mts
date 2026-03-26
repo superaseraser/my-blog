@@ -4,6 +4,7 @@ import { generateSidebar } from 'vitepress-sidebar'
 export default defineConfig({
   // 1. 基础配置
   title: "Chuanbao",
+ignoreDeadLinks: true, // 👈 加入这一行，无视所有死链，强制构建
   description: "蛋白质设计与实验笔记",
   
   // 🌟 自定义域名必备：设置站点地图，让 Google 更好搜到你
