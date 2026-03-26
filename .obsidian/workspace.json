@@ -208,6 +208,8 @@
   },
   "active": "25b1ac2157790d76",
   "lastOpenFiles": [
+    "一键更新.bat",
+    "新建 文本文档.txt",
     "markdown-examples.md",
     "logs/2026/index.md",
     "index.md",
@@ -234,7 +236,6 @@
     "node_modules/path-key/readme.md",
     "node_modules/path-key/package.json",
     "node_modules/path-key/index.js",
-    "node_modules/path-key/index.d.ts",
     "node_modules/minipass/LICENSE.md",
     "node_modules/@isaacs/cliui/README.md",
     "node_modules/@isaacs/cliui/LICENSE.md",
@@ -246,7 +247,6 @@
     "node_modules/jackspeak/LICENSE.md",
     "node_modules/qsu/README.md",
     "node_modules/minimatch/README.md",
-    "node_modules/minimatch/LICENSE.md",
-    "node_modules/glob/README.md"
+    "node_modules/minimatch/LICENSE.md"
   ]
 }
