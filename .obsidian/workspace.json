@@ -11,10 +11,14 @@
             "id": "b5a2a5c628595985",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "logs/2026/2026-03/03-26.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "03-26"
             }
           }
         ]
@@ -192,15 +196,20 @@
   },
   "active": "b5a2a5c628595985",
   "lastOpenFiles": [
+    "logs/2026/index.md",
+    "logs/2026/2026-03/03-26.md",
+    "logs/2026/2026-03/03-25.md",
+    "logs/learning/protein-design/software.md",
+    "logs/today.md",
+    "logs/learning/protein-design/protein-design.md",
+    "logs/learning/protein-design/folding-test.md",
     "public/截图-1.png",
     "about-me.md",
-    "logs/2026/2026-03/03-26.md",
     "index.md",
     "update一键更新.bat",
     "一键更新.bat",
     "新建 文本文档.txt",
     "markdown-examples.md",
-    "logs/2026/index.md",
     "logs/经验分享/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
     "logs/经验分享/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
     "logs/经验分享",
@@ -215,7 +224,6 @@
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/config.mjs.md",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/().md",
     "logs/经验分享/8个小时内拥有自己的个人网站",
-    "logs/2026/2026-03/03-25.md",
     "node_modules/vitepress-sidebar/README.md",
     "node_modules/signal-exit/LICENSE.txt",
     "node_modules/path-scurry/LICENSE.md",
@@ -223,9 +231,6 @@
     "node_modules/minipass/LICENSE.md",
     "node_modules/@isaacs/cliui/README.md",
     "node_modules/@isaacs/cliui/LICENSE.md",
-    "logs/learning/protein-design/software.md",
-    "logs/learning/protein-design/folding-test.md",
-    "logs/learning/protein-design/protein-design.md",
     "node_modules/jackspeak/README.md",
     "node_modules/jackspeak/LICENSE.md",
     "node_modules/qsu/README.md",
