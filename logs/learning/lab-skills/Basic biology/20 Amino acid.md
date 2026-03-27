@@ -1,8 +1,8 @@
 # 20 Amino acid
 
-|                |                       |                     |
-| -------------- | --------------------- | ------------------- |
+
 | **Amino acid** | **Three letter code** | **One letter code** |
+| -------------- | --------------------- | ------------------- |
 | alanine        | ala                   | A                   |
 | arginine       | arg                   | R                   |
 | asparagine     | asn                   | N                   |
