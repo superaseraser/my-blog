@@ -13,9 +13,8 @@ hero:
       link: /about-me
 
     - theme: brand
-      text: 开始阅读
-      link: /logs/today
-
+      text: 研究日志
+      link: /logs/index
 
 features:
   - icon: 🧬
