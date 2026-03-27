@@ -1,4 +1,4 @@
-## 20 Amino acid
+# 20 Amino acid
 
 |                |                       |                     |
 | -------------- | --------------------- | ------------------- |
@@ -23,4 +23,7 @@
 | tryptophan     | trp                   | W                   |
 | tyrosine       | tyr                   | Y                   |
 | valine         | val                   | V                   |
+
+
+
 Information [Source](https://www.fao.org/4/y2775e/y2775e0e.htm#TopOfPage) 
