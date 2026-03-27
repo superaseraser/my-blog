@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logs/learning/lab-skills/Basic biology/20 Amino acid.md",
+                "file": "logs/learning/lab-skills/Basic biology/E.coli codon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20 Amino acid"
+              "title": "E.coli codon"
             }
           }
         ]
@@ -196,9 +196,9 @@
   },
   "active": "81fdabe4c52ca84b",
   "lastOpenFiles": [
+    "logs/learning/lab-skills/Basic biology/20 Amino acid.md",
     "logs/today.md",
     "logs/index.md",
-    "logs/learning/lab-skills/Basic biology/20 Amino acid.md",
     "logs/learning/lab-skills/Basic biology/E.coli codon.md",
     "logs/learning/lab-skills/Basic biology/Mammalian codon.md",
     "public/codon Ecoli.png",
