@@ -25,7 +25,7 @@ features:
   - icon: 🔬
     title: 实验技能
     details: 湿实验操作规范与避坑指南。
-    link: /logs/learning/lab-skills/lab-skills
+    link: /logs/learning/lab-skills/lab-skill-list
   - icon: 📚
     title: 读书笔记
     details: 把看过的书沉淀为成长的养料。
