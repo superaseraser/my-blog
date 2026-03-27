@@ -1,0 +1,25 @@
+
+|                |                       |                     |
+| -------------- | --------------------- | ------------------- |
+| **Amino acid** | **Three letter code** | **One letter code** |
+| alanine        | ala                   | A                   |
+| arginine       | arg                   | R                   |
+| asparagine     | asn                   | N                   |
+| aspartic acid  | asp                   | D                   |
+| cysteine       | cys                   | C                   |
+| glutamic acid  | glu                   | E                   |
+| glutamine      | gln                   | Q                   |
+| glycine        | gly                   | G                   |
+| histidine      | his                   | H                   |
+| isoleucine     | ile                   | I                   |
+| leucine        | leu                   | L                   |
+| lysine         | lys                   | K                   |
+| methionine     | met                   | M                   |
+| phenylalanine  | phe                   | F                   |
+| proline        | pro                   | P                   |
+| serine         | ser                   | S                   |
+| threonine      | thr                   | T                   |
+| tryptophan     | trp                   | W                   |
+| tyrosine       | tyr                   | Y                   |
+| valine         | val                   | V                   |
+Information [Source](https://www.fao.org/4/y2775e/y2775e0e.htm#TopOfPage) 
