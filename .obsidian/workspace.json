@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logs/learning/Basic-biology/E-coli-codon.md",
+                "file": "logs/2026/2026-03/03-27 局部优化页面 并添加Basic biology 部分.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "E-coli-codon"
+              "title": "03-27 局部优化页面 并添加Basic biology 部分"
             }
           }
         ]
@@ -196,8 +196,10 @@
   },
   "active": "81fdabe4c52ca84b",
   "lastOpenFiles": [
-    "codon-Ecoli.png.md",
+    "logs/2026/2026-03/03-30- 添加新的section.md",
+    "logs/2026/2026-03/03-27 局部优化页面 并添加Basic biology 部分.md",
     "logs/learning/Basic-biology/E-coli-codon.md",
+    "codon-Ecoli.png.md",
     "logs/learning/Basic-biology/20-Amino-acid.md",
     "public/test-cat.png",
     "public/test.png",
@@ -205,9 +207,7 @@
     "logs/learning/books-and-other/References/References.md",
     "logs/learning/books-and-other/Books/books.md",
     "logs/learning/books-and-other/Books",
-    "logs/2026/2026-03/03-30.md",
     "logs/learning/books-and-other/References",
-    "logs/2026/2026-03/03-27 局部优化页面 并添加Basic biology 部分.md",
     "logs/2026/2026-03/03-26 一键更新脚本.md",
     "logs/learning/protein-design/folding-test.md",
     "logs/learning/protein-design/protein-design.md",
