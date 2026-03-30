@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logs/learning/books-and-other/References/References.md",
+                "file": "logs/learning/Basic-biology/E-coli-codon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "References"
+              "title": "E-coli-codon"
             }
           }
         ]
@@ -196,19 +196,22 @@
   },
   "active": "81fdabe4c52ca84b",
   "lastOpenFiles": [
-    "logs/learning/books-and-other/Books/books.md",
+    "codon-Ecoli.png.md",
+    "logs/learning/Basic-biology/E-coli-codon.md",
+    "logs/learning/Basic-biology/20-Amino-acid.md",
+    "public/test-cat.png",
+    "public/test.png",
+    "public/codon-Ecoli.png",
     "logs/learning/books-and-other/References/References.md",
+    "logs/learning/books-and-other/Books/books.md",
     "logs/learning/books-and-other/Books",
     "logs/2026/2026-03/03-30.md",
     "logs/learning/books-and-other/References",
     "logs/2026/2026-03/03-27 局部优化页面 并添加Basic biology 部分.md",
     "logs/2026/2026-03/03-26 一键更新脚本.md",
-    "logs/learning/Basic-biology/20-Amino-acid.md",
     "logs/learning/protein-design/folding-test.md",
     "logs/learning/protein-design/protein-design.md",
     "logs/learning/protein-design/software.md",
-    "logs/learning/Basic-biology/E-coli-codon.md",
-    "public/codon-Ecoli.png",
     "logs/learning/Basic-biology/lab-skills/PreRDL-cloning-methods.md",
     "logs/经验分享/8个小时内拥有自己的个人网站/详细版-零基础-如何8个小时内拥有自己的个人网站.md",
     "logs/经验分享/8个小时内拥有自己的个人网站/精简版-零基础-如何8个小时内拥有自己的个人网站.md",
@@ -229,13 +232,10 @@
     "logs/经验分享",
     "public/截图-2.png",
     "public/index.md",
-    "public/test.png",
-    "public/test-cat.png",
     "public/index.ts",
     "public/custom.css",
     "public/config.mts",
     "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/config.mjs.md",
-    "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/().md",
-    "node_modules/vitepress-sidebar/README.md"
+    "logs/learning/(零基础)如何8个小时内拥有自己的个人网站/().md"
   ]
 }

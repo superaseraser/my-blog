@@ -1,9 +1,8 @@
-
-# E.coli codon 
-
+\# E.coli codon 
 
 
- ![](/codon%20Ecoli.png)
+
+ ![密码子表](/codon-Ecoli.png)
 
 
 Source: Snapgene
